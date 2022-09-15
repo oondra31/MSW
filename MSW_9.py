@@ -3,13 +3,13 @@ from scipy import integrate
 
 #funkce
 def polynomial_function(x):
-    return x**3 - 3*x + 7
+    return x**4 + 8*x - 1
 
 def harmonic_function(x):
-    return 2*np.sin(3*x) 
+    return 2*np.cos(1/2*x) 
 
 def logarithm_function(x):
-    return np.log(6*x) + (2/3)
+    return np.log(6*x)**2
 
 #funkce vypoctu 
 def riemannuv_ctverec(funkce, lower_limit, upper_limit):

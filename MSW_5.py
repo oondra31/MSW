@@ -36,7 +36,7 @@ for i,fce in enumerate(list_fce):
     koren = optimize.newton(fce, x0=(min+max/2))
     print(f"kořen funkce f{i}= {koren}")
 
-print(f"Čas pomocí Newtonovi metody: {time.time() - time_before} s\n")
+print(f"Čas pomocí Newtonovy metody: {time.time() - time_before} s\n")
 print(f"metody mají dostatečně vysokou přesnost a metoda bisekce byla rychlejší pro 100 kroků")
 
 

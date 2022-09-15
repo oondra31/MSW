@@ -86,9 +86,7 @@ def matrix_multiply(A, B):
     colsA = len(A[0])
     rowsB = len(B)
     colsB = len(B[0])
-    if colsA != rowsB:
-        raise ArithmeticError(
-            'Number of A columns must equal number of B rows.') 
+   
     C = []
     while len(C) < rowsA:
         C.append([])
